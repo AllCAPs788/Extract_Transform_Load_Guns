@@ -10,6 +10,17 @@ Saturday: Creating both jupyter and postgres tables
     Gabe: Jupyter work with csv
     Clark and Essi: setting up SQL table for transfer from Jupyter
 
+Saturday goals:
+    Import csvs to jupyter
+        Drop the following fields after importing:
+            Incident numbers
+            police agency
+            weapon description
+            case numbers
+            
+    
+    Create SQL relational database from the same fields being used in jupyter
+
 Monday: final SQL additions and analysis wrap-up
 
 Go team. yaaaay.
