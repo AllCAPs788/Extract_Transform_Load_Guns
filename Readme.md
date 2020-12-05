@@ -1,14 +1,16 @@
 # Guns? Guns.
 
 **Extract**: The data we extracted are Data.world CSV files documenting firearm theft statistics from January 6, 2016 to May 25th,2020. Conducted by the Bloomington, IN police department, this data is broken down by the following:
-    * property number 
-    * date of incident 
-    * model of gun 
-    * weapon description 
-    * case status
-    * case number,
-    * police agency involved
-    * place where the weapon was stolen . 
+* property number 
+* date of incident 
+* model of gun 
+* weapon description 
+* case status
+* case number,
+* police agency involved
+* place where the weapon was stolen . 
+
+
 **Transform**: Taking massive amounts of gun data and taking out extraneous elements like incident numbers, police agency designations, weapon description, and case numbers.
 
 ### Jupyter
