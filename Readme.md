@@ -1,13 +1,21 @@
 # Guns? Guns.
 
-**Extract**: Data.world data from January 6, 2016- May 25th,2020 conducted by the Bloomington, IN police department on stolen guns. This data is broken down by property number, date of incident, model of gun, weapon description, case status, case number, police agency involved, and place where the weapon was stolen . 
+**Extract**: The data we extracted are Data.world CSV files documenting firearm theft statistics from January 6, 2016 to May 25th,2020. Conducted by the Bloomington, IN police department, this data is broken down by the following:
+    * property number 
+    * date of incident 
+    * model of gun 
+    * weapon description 
+    * case status
+    * case number,
+    * police agency involved
+    * place where the weapon was stolen . 
 **Transform**: Taking massive amounts of gun data and taking out extraneous elements like incident numbers, police agency designations, weapon description, and case numbers.
 
 ### Jupyter
-1. Import csvs to jupyter
+1. We imported CSV files to Jupyter Notebooks.
 2. Through the following Python code, we combined the CSV and XLSX files into one large table in Jupyter. 
     
-3. Drop the following columns after importing:
+3. We created a new table variable by filtering the combined table created in step 2. We filtered out the following columns: 
     Incident numbers
     police agency
     weapon description
@@ -24,7 +32,9 @@
     Stolen
     Stolen From
     Status
-2. 
+2. Since our pgAdmin database has been created, we then created our engine and database connection using Jupyter. 
+3. Using <engine.table_names()>, we made sure that our SQL database has the right table before we export our Jupyter information to pgAdmin.
+4. Finally, we exported our Jupyter code to pgAdmin using a <.to_sql> line from sqlalchemy.  
 
     
 
