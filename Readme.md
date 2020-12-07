@@ -1,4 +1,5 @@
 # Guns? Guns.
+![Pistol](https://upload.wikimedia.org/wikipedia/commons/4/4f/SIG_Pro_by_Augustas_Didzgalvis.jpg)
 
 ## Extract: 
 The data we extracted are Data.world CSV and XLXS files documenting firearm theft statistics from January 6, 2016 to May 25th,2020. Conducted by the Bloomington, IN police department, this data is broken down by the following:
@@ -40,8 +41,8 @@ Pushing cleaned data from Jupyter Notebooks to SQL Postgres and then onto a GitH
     * Status
 
 2. Since our pgAdmin database has been created, we then created our engine and database connection using Jupyter. 
-3. Using <engine.table_names()>, we made sure that our SQL database has the right table before we export our Jupyter information to pgAdmin.
-4. Finally, we exported our Jupyter code to pgAdmin using a <.to_sql> line from sqlalchemy.  
+3. Using `<engine.table_names()>`, we made sure that our SQL database has the right table before we export our Jupyter information to pgAdmin.
+4. Finally, we exported our Jupyter code to pgAdmin using a `<.to_sql>` line from sqlalchemy.  
 
     
 
