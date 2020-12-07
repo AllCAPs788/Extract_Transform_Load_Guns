@@ -2,7 +2,8 @@
 ![Pistol](https://upload.wikimedia.org/wikipedia/commons/4/4f/SIG_Pro_by_Augustas_Didzgalvis.jpg)
 
 ## Extract: 
-The data we extracted are Data.world CSV and XLXS files documenting firearm theft statistics from January 6, 2016 to May 25th,2020. Conducted by the Bloomington, IN police department, this data is broken down by the following:
+The data we extracted are Data.world [**CSV and XLXS files**](https://data.world/city-of-bloomington/ff8cb100-017d-44ef-a05a-37a19ec44611
+) documenting firearm theft statistics from January 6, 2016 to May 25th,2020. Conducted by the Bloomington, IN police department, this data is broken down by the following:
 * property number 
 * date of incident 
 * model of gun 
@@ -12,13 +13,12 @@ The data we extracted are Data.world CSV and XLXS files documenting firearm thef
 * police agency involved
 * place where the weapon was stolen . 
 
-Source URL: https://data.world/city-of-bloomington/ff8cb100-017d-44ef-a05a-37a19ec44611
 
 ## Transform
  Taking massive amounts of gun data and taking out extraneous elements like incident numbers, police agency designations, weapon description, and case numbers.
 
 ### Jupyter
-1. We imported CSV files to Jupyter Notebooks.
+1. We imported CSV files to Jupyter Notebooks file, [**guns_7.ipynb**](https://github.com/AllCAPs788/ETL_group_7/blob/master/guns_7.ipynb).
 2. We combined the CSV and XLSX files into one large table in Jupyter. 
     
 3. We created a new table variable by filtering the combined table created in step 2. The following columns were filtered out: 
@@ -42,7 +42,7 @@ Pushing cleaned data from Jupyter Notebooks to SQL Postgres and then onto a GitH
 
 2. Since our pgAdmin database has been created, we then created our engine and database connection using Jupyter. 
 3. Using `<engine.table_names()>`, we made sure that our SQL database has the right table before we export our Jupyter information to pgAdmin.
-4. Finally, we exported our Jupyter code to pgAdmin using a `<.to_sql>` line from sqlalchemy.  
+4. Finally, we exported our Jupyter code to pgAdmin using a `<.to_sql>` line from sqlalchemy onto our SQL table, [**project.sql**](https://github.com/AllCAPs788/ETL_group_7/blob/master/project.sql).
 
     
 
