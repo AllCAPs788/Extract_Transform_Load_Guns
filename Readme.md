@@ -20,7 +20,7 @@ The data we extracted are Data.world [**CSV and XLXS files**](https://data.world
  Here is our detailed transformation process. 
 
 ### Jupyter Notebooks
-1. We imported CSV and XLXS files to Jupyter Notebooks file, [**guns_7.ipynb**](https://github.com/AllCAPs788/ETL_group_7/blob/master/guns_7.ipynb).
+1. We imported CSV and XLXS files to Jupyter Notebooks file, [**guns_8.ipynb**](https://github.com/AllCAPs788/ETL_group_7/blob/master/guns_7.ipynb).
 2. We combined the CSV and XLSX files into one large table in Jupyter. 
     
 3. We created a new table variable by filtering the combined table created in step 2. The following columns were filtered out: 
