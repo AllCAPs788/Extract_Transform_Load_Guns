@@ -45,7 +45,13 @@ Pushing cleaned data from Jupyter Notebooks to SQL Postgres and then onto a GitH
 3. Using `<engine.table_names()>`, we made sure that our SQL database has the right table columns before we exported our Jupyter information to **guns_db**.
 4. Finally, we exported our Jupyter code to pgAdmin using a `<.to_sql>` line from sqlalchemy onto our SQL table, [**guns.sql**](https://github.com/AllCAPs788/ETL_group_7/blob/master/guns.sql).
 
-   
+## Final Analysis
+
+From our **guns_db** database, we found that guns were primarily stolen from the residences of gun owners. Most of these firearms were not recovered or were listed as "No Record". 
+
+All of the weapons in the dataset were hand guns, and the most popular brands were Glock, Taurus, and Smith and Wesson.
+
+
 
         
   
