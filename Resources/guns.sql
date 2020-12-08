@@ -1,0 +1,8 @@
+CREATE TABLE Guns (
+	Date INT NOT NULL PRIMARY KEY,
+	Brand VARCHAR(255), 
+	Stolen VARCHAR(255),
+	Stolen_from VARCHAR(255),
+	Status VARCHAR(255)
+);
+
