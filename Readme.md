@@ -51,7 +51,12 @@ From our **guns_db** database, we found that guns were primarily stolen from the
 
 All of the weapons in the dataset were hand guns, and the most popular brands were Glock, Taurus, and Smith and Wesson.
 
+## Tools and Resources
 
+* Jupyter Notebooks
+* Postgres SQL
+* Python
+* pgAdmin
 
         
   
